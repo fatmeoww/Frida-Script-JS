@@ -3,22 +3,43 @@
 This is backup file from offcial site of script file using with frida to bypass root or ssl pinning.
 
 
-#frida_multiple_unpinning.js
+frida_multiple_unpinning.js
+
 
 
 https://gist.github.com/akabe1/5632cbc1cd49f0237cbd0a93bc8e4452
 
 
-#fridantroot.js
+
+fridantroot.js
+
 
 
 https://codeshare.frida.re/@dzonerzy/fridantiroot/
 
 
-#Universal Android SSL Pinning Bypass with Frida
+
+Universal Android SSL Pinning Bypass with Frida
+
 
 
 https://codeshare.frida.re/@pcipolloni/universal-android-ssl-pinning-bypass-with-frida/
 
 
-#mix_version of fridantroot.js and frida_multiple_unpinning.js (me)
+
+mix_version of fridantroot.js and frida_multiple_unpinning.js (me)
+
+
+# How to use
+
+
+1.run frida-server on devices
+
+
+2.frida-ps -Uai ( for check package name )
+
+
+3.frida -U -f (package name) -l (script js file) --no-pause
+
+
+enjoy :D
